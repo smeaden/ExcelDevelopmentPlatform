@@ -1,0 +1,12 @@
+  {
+    "name": "JobLeads",
+    "version": "0.0.1",
+	"author": "Mr Chan",
+    "description": "harvests job leads",
+    "permissions": [],
+	"content_scripts": [ {
+      "js": [ "content.js" , "JavaScriptToVBAVariantArray.js" ],
+      "matches": [   "*://*.indeed.com/*" , "*://*.indeed.co.uk/*" ] }
+    ],
+    "manifest_version": 2
+  }
